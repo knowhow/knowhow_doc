@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <architect-project version="1.0" appversion="1.0.6">
  <project-name>usr_grp_priv_pref</project-name>
- <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <print-settings printerName="print-2.bring.out.ba" numCopies="1" zoom="0.55" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
  <project-data-sources>
   <data-source id="DS0">
    <property key="Logical" value="PlayPen Database" />
@@ -794,10 +794,10 @@
        <column id="COL226" populated="true" UUID="6e7b20d4-858e-4ea0-b39c-4975a37cd198" autoIncrement="true" defaultValue="nextval(&apos;grp_grp_id_seq&apos;::regclass)" name="grp_id" nullable="0" physicalName="grp_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL227" populated="true" UUID="30b206a1-4b6d-4427-a030-c15498249361" autoIncrement="false" name="grp_name" nullable="0" physicalName="grp_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL227" populated="true" UUID="30b206a1-4b6d-4427-a030-c15498249361" autoIncrement="false" defaultValue="" name="grp_name" nullable="0" physicalName="grp_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL228" populated="true" UUID="1bd217ac-a4a8-4134-8d38-93e3c22ee1d9" autoIncrement="false" name="grp_descrip" nullable="1" physicalName="grp_descrip" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL228" populated="true" UUID="1bd217ac-a4a8-4134-8d38-93e3c22ee1d9" autoIncrement="false" defaultValue="" name="grp_descrip" nullable="1" physicalName="grp_descrip" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
        </folder>
@@ -820,10 +820,10 @@
        <column id="COL234" populated="true" UUID="0a7f2e00-33ef-4830-8867-98dcf8269fba" autoIncrement="true" defaultValue="nextval(&apos;grppriv_grppriv_id_seq&apos;::regclass)" name="grppriv_id" nullable="0" physicalName="grppriv_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL235" populated="true" UUID="de0c3b75-4218-4d0c-9437-cd82c08ac789" autoIncrement="false" name="grppriv_grp_id" nullable="0" physicalName="grppriv_grp_id" precision="10" referenceCount="2" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL235" populated="true" UUID="de0c3b75-4218-4d0c-9437-cd82c08ac789" autoIncrement="false" defaultValue="" name="grppriv_grp_id" nullable="0" physicalName="grppriv_grp_id" precision="10" referenceCount="2" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL236" populated="true" UUID="f89644b3-7f53-4933-b03a-d9fe002920e4" autoIncrement="false" name="grppriv_priv_id" nullable="0" physicalName="grppriv_priv_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL236" populated="true" UUID="f89644b3-7f53-4933-b03a-d9fe002920e4" autoIncrement="false" defaultValue="" name="grppriv_priv_id" nullable="0" physicalName="grppriv_priv_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
        </folder>
@@ -1354,16 +1354,16 @@
        <column id="COL386" populated="true" UUID="0f7e7961-d5ef-4ef2-88ac-c25f3864cd2a" autoIncrement="true" defaultValue="nextval((&apos;priv_priv_id_seq&apos;::text)::regclass)" name="priv_id" nullable="0" physicalName="priv_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL387" populated="true" UUID="971d9ba8-b71d-44e0-9e9e-d545c914b92a" autoIncrement="false" name="priv_module" nullable="1" physicalName="priv_module" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL387" populated="true" UUID="971d9ba8-b71d-44e0-9e9e-d545c914b92a" autoIncrement="false" defaultValue="" name="priv_module" nullable="1" physicalName="priv_module" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL388" populated="true" UUID="06dc3d43-a9e8-40ce-953a-1d0bc2f77c70" autoIncrement="false" name="priv_name" nullable="1" physicalName="priv_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL388" populated="true" UUID="06dc3d43-a9e8-40ce-953a-1d0bc2f77c70" autoIncrement="false" defaultValue="" name="priv_name" nullable="1" physicalName="priv_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL389" populated="true" UUID="d56a89f5-dd16-40ec-adbb-b7799b37abeb" autoIncrement="false" name="priv_descrip" nullable="1" physicalName="priv_descrip" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL389" populated="true" UUID="d56a89f5-dd16-40ec-adbb-b7799b37abeb" autoIncrement="false" defaultValue="" name="priv_descrip" nullable="1" physicalName="priv_descrip" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL390" populated="true" UUID="e474dbff-56d8-4b7d-9f47-32c5a1a562fb" autoIncrement="false" name="priv_seq" nullable="1" physicalName="priv_seq" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL390" populated="true" UUID="e474dbff-56d8-4b7d-9f47-32c5a1a562fb" autoIncrement="false" defaultValue="" name="priv_seq" nullable="1" physicalName="priv_seq" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
        </folder>
@@ -1717,7 +1717,7 @@
       </folder>
      </table>
      <table id="TAB491" populated="false" UUID="6b9e59e4-d85d-4bc3-8a40-a505118db5a7" name="taxhist" objectType="TABLE" physicalName="taxhist" >
-      <remarks>A table type to record tax transaction history. Inherited by other tables that actually record history. As the parent, queries can be run against it that will join all child tables. </remarks>
+      <remarks>A table type to record tax transaction history. Inherited by other tables that actually record history. As the parent, queries can be run against it that will join all child tables.</remarks>
       <folder id="FOLTAB4911" populated="false" name="Columns" physicalName="Columns" type="1">
        <index id="IDX492" populated="true" UUID="d7091ba7-fa2b-4d01-be18-f5068e9b0596" clustered="false" name="taxhist_pk" physicalName="taxhist_pk" primaryKeyIndex="true" unique="false" >
        </index>
@@ -1834,10 +1834,10 @@
        <column id="COL524" populated="true" UUID="9c87fe39-af9b-4375-ba4e-29fdd51a187f" autoIncrement="true" defaultValue="nextval(&apos;usrgrp_usrgrp_id_seq&apos;::regclass)" name="usrgrp_id" nullable="0" physicalName="usrgrp_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL525" populated="true" UUID="1ad5cba5-2355-4c3a-acfa-1e16a95a71cd" autoIncrement="false" name="usrgrp_grp_id" nullable="0" physicalName="usrgrp_grp_id" precision="10" referenceCount="2" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL525" populated="true" UUID="1ad5cba5-2355-4c3a-acfa-1e16a95a71cd" autoIncrement="false" defaultValue="" name="usrgrp_grp_id" nullable="0" physicalName="usrgrp_grp_id" precision="10" referenceCount="2" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL526" populated="true" UUID="c7616410-9d3c-40c9-a524-fceed5f22cdb" autoIncrement="false" name="usrgrp_username" nullable="0" physicalName="usrgrp_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL526" populated="true" UUID="c7616410-9d3c-40c9-a524-fceed5f22cdb" autoIncrement="false" defaultValue="" name="usrgrp_username" nullable="0" physicalName="usrgrp_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
        </folder>
@@ -1857,13 +1857,13 @@
        <column id="COL530" populated="true" UUID="b5bc8d3e-4a3e-46a1-812f-87e96a28e410" autoIncrement="true" defaultValue="nextval((&apos;usrpref_usrpref_id_seq&apos;::text)::regclass)" name="usrpref_id" nullable="0" physicalName="usrpref_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL531" populated="true" UUID="870a3c63-5abf-40fd-a6c0-b38485da2ea6" autoIncrement="false" name="usrpref_name" nullable="1" physicalName="usrpref_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL531" populated="true" UUID="870a3c63-5abf-40fd-a6c0-b38485da2ea6" autoIncrement="false" defaultValue="" name="usrpref_name" nullable="1" physicalName="usrpref_name" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL532" populated="true" UUID="e6073184-3b1b-4bd9-a864-a0981854d1f1" autoIncrement="false" name="usrpref_value" nullable="1" physicalName="usrpref_value" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL532" populated="true" UUID="e6073184-3b1b-4bd9-a864-a0981854d1f1" autoIncrement="false" defaultValue="" name="usrpref_value" nullable="1" physicalName="usrpref_value" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL533" populated="true" UUID="e09996fe-527e-4b2f-950d-f01eaf024c16" autoIncrement="false" name="usrpref_username" nullable="1" physicalName="usrpref_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL533" populated="true" UUID="e09996fe-527e-4b2f-950d-f01eaf024c16" autoIncrement="false" defaultValue="" name="usrpref_username" nullable="1" physicalName="usrpref_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
        </folder>
@@ -1886,10 +1886,10 @@
        <column id="COL539" populated="true" UUID="778608c8-15a6-41bd-91b5-5d3cb596caee" autoIncrement="true" defaultValue="nextval((&apos;usrpriv_usrpriv_id_seq&apos;::text)::regclass)" name="usrpriv_id" nullable="0" physicalName="usrpriv_id" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="serial" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL540" populated="true" UUID="e70385de-974e-4123-9281-ea299c8d8b21" autoIncrement="false" name="usrpriv_priv_id" nullable="1" physicalName="usrpriv_priv_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL540" populated="true" UUID="e70385de-974e-4123-9281-ea299c8d8b21" autoIncrement="false" defaultValue="" name="usrpriv_priv_id" nullable="1" physicalName="usrpriv_priv_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL541" populated="true" UUID="e7d3f9bb-9fa6-4109-94b8-66784c270510" autoIncrement="false" name="usrpriv_username" nullable="1" physicalName="usrpriv_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL541" populated="true" UUID="e7d3f9bb-9fa6-4109-94b8-66784c270510" autoIncrement="false" defaultValue="" name="usrpriv_username" nullable="1" physicalName="usrpriv_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
        </folder>
@@ -2207,34 +2207,34 @@
      <table id="TAB630" populated="true" UUID="9e64d5a2-2537-4cce-8bb0-d9fe5d2bc1d5" name="usr" objectType="VIEW" physicalName="usr" >
       <remarks></remarks>
       <folder id="FOLTAB6301" populated="true" name="Columns" physicalName="Columns" type="1">
-       <column id="COL631" populated="true" UUID="10e35a03-3072-46ca-adb2-7684c59280de" autoIncrement="false" name="usr_id" nullable="1" physicalName="usr_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL631" populated="true" UUID="10e35a03-3072-46ca-adb2-7684c59280de" autoIncrement="false" defaultValue="" name="usr_id" nullable="1" physicalName="usr_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL632" populated="true" UUID="d9a26b4d-5d3e-4c1e-94c3-2edc881b07e4" autoIncrement="false" name="usr_username" nullable="1" physicalName="usr_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL632" populated="true" UUID="d9a26b4d-5d3e-4c1e-94c3-2edc881b07e4" autoIncrement="false" defaultValue="" name="usr_username" nullable="1" physicalName="usr_username" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL633" populated="true" UUID="ad65acad-42f6-4433-aec2-0ebec8c6200d" autoIncrement="false" name="usr_propername" nullable="1" physicalName="usr_propername" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL633" populated="true" UUID="ad65acad-42f6-4433-aec2-0ebec8c6200d" autoIncrement="false" defaultValue="" name="usr_propername" nullable="1" physicalName="usr_propername" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL634" populated="true" UUID="f31a577c-a298-4e12-a328-661f043c7785" autoIncrement="false" name="usr_passwd" nullable="1" physicalName="usr_passwd" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL634" populated="true" UUID="f31a577c-a298-4e12-a328-661f043c7785" autoIncrement="false" defaultValue="" name="usr_passwd" nullable="1" physicalName="usr_passwd" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL635" populated="true" UUID="4f6c7f7a-7b1b-4ed0-bfe8-c15a503a207a" autoIncrement="false" name="usr_locale_id" nullable="1" physicalName="usr_locale_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
+       <column id="COL635" populated="true" UUID="4f6c7f7a-7b1b-4ed0-bfe8-c15a503a207a" autoIncrement="false" defaultValue="" name="usr_locale_id" nullable="1" physicalName="usr_locale_id" precision="10" referenceCount="1" scale="0" sourceDataTypeName="int4" type="4" >
         <remarks></remarks>
        </column>
-       <column id="COL636" populated="true" UUID="02b7598b-c95e-4e6e-9d5b-9ee8085d2388" autoIncrement="false" name="usr_initials" nullable="1" physicalName="usr_initials" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL636" populated="true" UUID="02b7598b-c95e-4e6e-9d5b-9ee8085d2388" autoIncrement="false" defaultValue="" name="usr_initials" nullable="1" physicalName="usr_initials" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL637" populated="true" UUID="3fafa6fd-bbec-46a0-9eee-27f95e5cc59b" autoIncrement="false" name="usr_agent" nullable="1" physicalName="usr_agent" precision="1" referenceCount="1" scale="0" sourceDataTypeName="bool" type="16" >
+       <column id="COL637" populated="true" UUID="3fafa6fd-bbec-46a0-9eee-27f95e5cc59b" autoIncrement="false" defaultValue="" name="usr_agent" nullable="1" physicalName="usr_agent" precision="1" referenceCount="1" scale="0" sourceDataTypeName="bool" type="16" >
         <remarks></remarks>
        </column>
-       <column id="COL638" populated="true" UUID="8b31d699-ad86-4c6a-9ef4-b5a0adf6178b" autoIncrement="false" name="usr_active" nullable="1" physicalName="usr_active" precision="1" referenceCount="1" scale="0" sourceDataTypeName="bool" type="16" >
+       <column id="COL638" populated="true" UUID="8b31d699-ad86-4c6a-9ef4-b5a0adf6178b" autoIncrement="false" defaultValue="" name="usr_active" nullable="1" physicalName="usr_active" precision="1" referenceCount="1" scale="0" sourceDataTypeName="bool" type="16" >
         <remarks></remarks>
        </column>
-       <column id="COL639" populated="true" UUID="07e44d35-e396-4e6e-a96b-41999473f574" autoIncrement="false" name="usr_email" nullable="1" physicalName="usr_email" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL639" populated="true" UUID="07e44d35-e396-4e6e-a96b-41999473f574" autoIncrement="false" defaultValue="" name="usr_email" nullable="1" physicalName="usr_email" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
-       <column id="COL640" populated="true" UUID="b038fc1e-ce65-4946-ae25-cb4b3a747fd1" autoIncrement="false" name="usr_window" nullable="1" physicalName="usr_window" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
+       <column id="COL640" populated="true" UUID="b038fc1e-ce65-4946-ae25-cb4b3a747fd1" autoIncrement="false" defaultValue="" name="usr_window" nullable="1" physicalName="usr_window" precision="2147483647" referenceCount="1" scale="0" sourceDataTypeName="text" type="12" >
         <remarks></remarks>
        </column>
        </folder>
